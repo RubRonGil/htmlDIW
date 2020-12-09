@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/1b8c47f05d.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manualteca</title>
+</head>
+<body>
+    <header  class="colorCabecera">
+        <div class="cabecera">
+            <div>
+                <a href="index.html"><img src="img/Logo final 2.png" alt="Logo de la web" class="logo"></a>
+            </div>
+        </div>      
+    </header>
+
+    <main>
+        <div class="colorNavegacion">
+            <div class="divNavegacion">
+                    <nav class="navegacion">
+                        <ul>
+                            <a href="index.html">
+                                <li>
+                                    INICIO
+                                </li>
+                            </a>
+                            <a href="reseña.html">
+                                <li>
+                                    TIPOS DE JUEGOS
+                                </li>
+                            </a>
+                            <a href="index.html">
+                                <li>
+                                    SOBRE NOSOTROS
+                                </li>
+                            </a>
+                            <a href="index.html">
+                                <li>
+                                    DONACIONES
+                                </li>
+                            </a>
+                            <abbr title="Buscar">
+                                <a href="">
+                                    <li>
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                </a>
+                            </abbr>
+                            <abbr title="Iniciar Sesión">
+                                <a href="login.html">
+                                    <li>
+                                        <i class="fas fa-user-circle"></i>
+                                    </li>
+                                </a>
+                            </abbr>
+                            <abbr title="Modo oscuro">
+                                <li onclick="oscuro()">
+                                    <i class="fas fa-moon"></i>
+                                </li>
+                            </abbr>
+                        </ul>
+                    </nav>
+            </div>
+        </div>
+        <div class="margenes">
+        <div class="juegosaleatorios">
+            <div class="juegoscolumna">
+                <div class="juegosaleatoriosgrande">
+                    <img src="img/dixit.jpg" alt="">
+                </div>
+                <div class="filajuegospequeños">
+                    <div class="juegosaleatoriospequeño">
+                        <img src="img/wargames.jpg" alt="">
+                    </div>
+                    <div class="juegosaleatoriospequeño">
+                        <img src="img/dados.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="juegoscolumna" id="columnaderecha">
+                <div class="filajuegospequeños">
+                    <div class="juegosaleatoriospequeño">
+                        <img src="img/wargames.jpg" alt="">
+                    </div>
+                    <div class="juegosaleatoriospequeño">
+                        <img src="img/rol.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="juegosaleatoriosgrande">
+                    <img src="img/dixit.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="seccionprincipal">
+
+            <div class="buscadoroculto"> 
+                <div class="titulossection">
+                    <p><i class="fas fa-search"></i> Buscador</p>
+                </div>
+                <form action="">
+                    <input type="text" name="buscador" id="buscador" placeholder="Introduce juego a buscar">
+                </form>
+            </div>
+
+            <div class="redessocialesoculto">
+                <div class="titulossection">
+                    <p>Redes sociales</p>
+                </div>
+                <div class="contenedorRS">
+                    <img src="img/facebook circulo.png" alt="facebook logo" id="redesSociales">
+                    <img src="img/instagram circulo.png" alt="instagram logo" id="redesSociales">
+                </div>
+            </div>
+
+            <div class="ultimasreseñas">
+                <div class="titulossection">
+                    <p>Últimas reseñas</p>
+                </div>
+                <div class="reseña">
+                    <div class="contenedoreseña">
+                        <a href="reseña.html"><img src="img/Polynesia.jpg" class="imgzoom" alt="Polynesia" ></a>
+                        <h3>Polynesia</h3>
+                        <p>El volcán cercano a tu isla entrará pronto en erupción. ¿Serás capaz de salvar a tu gente de una condena segura? ¿Hay un nuevo hogar habitable ahí fuera? Si es así, ¿conseguirás suficientes recursos para alimentar a tu tribu?</p>
+                    </div>
+                    <div class="contenedoreseña">
+                        <a href="reseña.html"><img src="img/hombre lobo castronegro.jpg" class="imgzoom" alt="Hombre lobo de castronegro" ></a>
+                        <h3>Hombres lobo de Castronegro</h3>
+                        <p>Un juego de intriga y debate donde los aldeanos deben descubir a los hombres lobo antes de que estos consigan asesinar a todo el pueblo</p>
+                    </div>
+                    <div class="contenedoreseña">
+                        <a href="reseña.html"><img src="img/cartas.jpg" class="imgzoom" alt="Dixit" ></a>
+                        <h3>Dixit</h3>
+                        <p>¡Juego de cartas donde tendrás que dejar fluir tu imaginación e intuición para pensar como tus amigos!</p>
+                    </div>
+                    <div class="contenedoreseña">
+                        <a href="reseña.html"><img src="img/dados.jpg" class="imgzoom" alt="King of Tokyo" ></a>
+                        <h3>King of Tokyo</h3>
+                        <p>Se el rey de la ciudad, ¡¡conquista todo a tu paso!! Elige tu personaje favorito entre varios monstruos y domina la ciudad de Tokyo frente a tus rivales</p>
+                    </div>
+                </div>
+            </div>
+            <div class="noticias">
+                <div class="titulossection">
+                    <p>Noticias</p>
+                </div>
+                <div class="reseña">
+                    <div class="contenedoreseña">
+                        <a href="reseña.html"><img src="img/rol.png" class="imgzoom" alt="rol" ></a>
+                        <h3>Rol - Fénix</h3>
+                        <p>La Asociación Cultural Fénix plantea lanzar por fin un juego de rol basado en los acontecimientos ocurridos en Isla Dragón</p>
+                    </div>
+                    <div class="contenedoreseña">
+                        <a href="reseña.html"><img src="img/wargames.jpg" class="imgzoom" alt="9º era" ></a>
+                        <h3>9º Era</h3>
+                        <p>La edición fandom de 9º Era por fin logra desbancar al gigante empresarial Games-Workshop</p>
+                    </div>
+                    <div class="contenedoreseña">
+                        <a href="reseña.html"><img src="img/tablero.jpg" class="imgzoom" alt="Catan" ></a>
+                        <h3>Catan victorioso</h3>
+                        <p>Catan se convierte en el juego más querido por la comunidad de jugadores de España. Tras una dura encuesta, seguido de cerca por Hombre lobo, Catan se alza con la victoria</p>
+                    </div>
+                </div>
+            </div>
+            <div class="barraderecha">
+                <div class="contenidobarraderecha"  id="buscadororiginal">
+                    <div class="titulossection">
+                        <p><i class="fas fa-search"></i> Buscador</p>
+                    </div>
+                    <form action="">
+                        <input type="text" name="buscador" id="buscador" placeholder="Introduce juego a buscar">
+                    </form>
+                </div>
+
+                <div class="contenidobarraderecha"  id="redesoriginal">
+                    <div class="titulossection">
+                        <p>Redes sociales</p>
+                    </div>
+                    <div class="contenedorRS">
+                        <img src="img/facebook circulo.png" alt="facebook logo" id="redesSociales">
+                        <img src="img/instagram circulo.png" alt="instagram logo" id="redesSociales">
+                    </div>
+                </div>
+
+                <div class="contenidobarraderecha">
+                    <div class="titulossection">
+                        <p>Top juegos</p>
+                    </div>
+                    <img src="img/tablero.jpg" alt="catan">
+                    <img src="img/wargames.jpg" alt="wargames">
+                    <img src="img/hombre lobo castronegro.jpg" alt="hombre lobo">
+                    <img src="img/rol.png" alt="rol">
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    
+    <footer class="pie">
+        <div class="flexfooter">
+            <div class="footerelement">
+                <a href="index.html"><img src="img/Logo final 2.png" alt="Logo de la web" class="logo"></a>
+            </div>
+            <div class="footerelement">
+                <ul>
+                    <li><h2>MENÚ LEGAL</h2></li>
+                    <li>Aviso legal</li>
+                    <li>Condiciones de uso</li>
+                    <li>Mantenimiento</li>
+                    <li>Cookies</li>
+                </ul>
+            </div><div class="footerelement">
+                <ul>
+                    <li><h2>ENLACES DE INTERES</h2></li>
+                    <li>Preguntas frecuentes</li>
+                    <li>Contacta con nosotros</li>
+                    <li>Soporte Técnico</li>
+                    <li>Donaciones</li>
+                </ul>
+            </div><div class="footerelement">
+                <ul>
+                    <li><h2>REDES SOCIALES</h2></li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
