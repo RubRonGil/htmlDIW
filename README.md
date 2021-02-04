@@ -35,7 +35,7 @@ Para elaborar este proyecto me he basado en un único programa.
 
 ## Autores ✒️
 
-* **Rubén Rondán Gil** - *Desarrolador del proyecto* - [RubénGit](https://github.com/RubRonGil)
+* **Rubén Rondán Gil** - *Desarrolador del proyecto* - [RubGit](https://github.com/RubRonGil)
 
 ## Plantilla usada ✒️
 
